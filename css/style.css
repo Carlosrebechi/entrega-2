@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+ 
+body {
+   background-color: #191919;
+    color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4 { 
+    font-family: "Bebas Neue", sans-serif;;
+}
+
+p,
+a {
+    font-family: "Roboto", sans-serif;
+    color: #191919;
+   background-color: #fff;
+    font-family: 60px;
+}
+.home{
+    color: #fff;
+    padding: 10px;
+    font-family: 20px;
+
+}
+.header {
+    background-color: #5995da;
+    padding: 20px;
+    }
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header__logo{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.header__nav--list {
+    display: flex;
+    justify-content: space-around;
+    gap: 100%;
+    }
+.header__nav--list li{
+    padding: 3px;
+    
+}
+h2{
+    display: flex;
+    justify-content: center;
+    gap: 100px
+    ;
+}
+.tienda{
+    padding: 40px;
+
+}
+.carousel-inner,
+.carousel-item {
+    width: 100%;
+    height: 800px;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.hero div{
+    width: 70%;
+    position: relative;
+}
+.hero div h2{
+    font-size: 140px;
+    
+}
+.hero div p{
+    font-size: 25px;
+}
+.hero img{
+    width: 65%;
+    height: 700px;
+}
+
+.tarjeta{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    background-color: #fff;
+    color: #191919;
+    padding: 0;
+}
+
+.tarjeta div{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tarjeta img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.tarjeta div a{
+    width: 100%;
+    padding: 10px;
+    background-color: #191919;
+    color: #fff;
+    text-decoration: none;
+}
+
+.row{
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width:768px){
+    .hero{
+   position: relative;
+   height: 500px;
+   width: 100%;
+   padding: 0;
+    
+}
+.hero div{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #000000bc;
+     }
+.hero img{
+    width: 100%;
+    height: 80px;
+    }
+.hero div h2{
+       font-size: 60px;
+    }
+.hero div p{
+      font-size: 20px;
+    }
+}
+.products{
+    background-color:pink;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px 20px 40px;
+}
+.products__ind {
+    width: 300px;
+    background-color: #74a1d4;
+    border-radius: 10px;
+    }
+
+.products__ind--img {
+    width: 100%;
+    height: auto;
+}
+.products__ind--text{
+    display: flex;
+    flex-direction: column;
+}
+.products{
+      display: flex;
+    justify-content: space-between;
+    margin: 20px 40px 20px 40px;
+}
+.products__niñas{
+    width: 300px;
+    background-color: #74a1d4;
+    border-radius: 2px;
+}
+.products__niñas--img{
+    width: 100%;
+    height: auto;
+}
+.products__niñas--text{
+    display: flex;
+    flex-direction: column;
+}
+
+.productos{
+    height: 30%;
+    height: 300px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(4, 200px); 
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px; 
+  }
+
+.grid-item{
+    border: 1px solid black;
+}
+
+.firts-item{
+    grid-row: 1/3;
+}
+
+.photo-1{
+    width: 100%;
+    height: 100%;
+}
+
+.photo-2{
+    height: 100%;
+    width: 100%;
+  }
+.photo-3{
+    width: 100%;
+    height: 100%;
+}
+
+.photo-4{
+    width: 100%;
+    height: 100%;
+}
+ 
+h3{
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: rgb(48, 231, 207);
+    border: solid 1px black;
+    gap: 30%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+}
+
+.ofertas-calzados{
+ background-color: black;
+ color: #fff;
+ display: flex;
+ justify-content: center;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 40px;
+ height: 150px;
+
+
+}
+.tienda{
+    background-color: rgb(0, 153, 255);
+    width: 100%;
+    height: 250px;
+    }
+
+img{
+    height: 300px;
+    width: 60%;
+    }
+
+.fondo-nav{
+    background-color: fuchsia;
+}
+
+.card-text{
+    background-color: #5995da;
+    color: red;
+}
+
+.tarjeta{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    background-color: #fff;
+    color: #191919;
+    }
+  
+.tarjeta div{
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+
+}
+.tarjeta img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.tarjeta div a{
+width: 100%;
+padding: 10px;
+background-color: #191919;
+color: #fff;
+text-decoration: none;
+}
+.row{
+    margin: 0;
+    padding: 0;
+}
+
+.presentacion{
+ width: 100%;
+ height: 100px;
+ background-color: gray;
+ color: #191919;
+h1{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+}
+.header{
+    background-color: #f56398;
+    padding: 5px;
+}
+
+
+.navbar{
+    /*Agrego flex al nav para asi tener ubicados horizontalmente la ul y la img*/ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    height: 20%;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 80px;
+}
+.nav-list li{
+    padding: 3px;
+    height: 10px;
+}
+.nav-list li a{
+    color: black;
+}
+
+.card-container{
+    /*a la section le agrego flex. de esta forma las ubico de manera horizontal*/ 
+    display: flex;
+    justify-content: space-between;
+    margin:  20px 40px 20px 40px;
+}
+.card{
+    width: 300px;
+    background-color: #00c4ff;
+    border-radius: 8px;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.card-text{
+    /*A los textos los ubico uno debajo del otro con flex*/
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 16px;
+}
+
+.card-text h3{
+    font-size: 24px;
+}
+.card-text p{
+    font-size: 16px;
+}
+.card-text a{
+    padding: 16px;
+    background-color: #333;
+    border-radius: 4px;
+    color: #f0f0f0;
+}
+footer h3{
+    text-align: center;
+}
+/*footer*/
+.Contactos-container{
+    display: flex;
+    justify-content: space-around;
+    margin:  20px 40px 20px 40px;
+}
+.contactos{
+    width: 200px;
+    height: 50%;
+}
+
